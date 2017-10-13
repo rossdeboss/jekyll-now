@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: http://i.imgur.com/zLwEoln.jpg;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: 204, 204, 0;
 }
 
 .container {
@@ -28,6 +28,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+background: RGBA{0,0,102,0.8}
 }
 
 h1, h2, h3, h4, h5, h6 {
