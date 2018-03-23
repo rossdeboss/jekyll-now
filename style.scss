@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background-image: url("http://ak9.picdn.net/shutterstock/videos/932959/thumb/1.jpg?i10c=img.resize(height:160)")i10c=img.resize(height:160)
+	background-image: url("http://ak9.picdn.net/shutterstock/videos/932959/thumb/1.jpg?i10c=img.resize(height:160)")i10c=img.resize(height:160);
   font: 18px/1.4 $helvetica;
   color: #ff6666;
 }
@@ -75,7 +75,52 @@ a {
   &:hover, &:active {
     color: $blue;
   }
+{
+	<body>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
 }
+</style>
+</head>
+<body>
+
+<h2>This is a table of the best football teams in the world...probably:</h2>
+
+<table>
+  <tr>
+    <th>Team</th>
+    <th>league</th>
+    <th>Best Team</th>
+     <th>Best Player</th>
+  </tr>
+  <tr>
+    <td>Liverpool</td>
+    <td>Premier league</td>
+    <td>Yes</td>
+    <td>Salah</td>
+  </tr>
+  <tr>
+    <td>Barcelona</td>
+    <td>La Liga</td>
+    <td>No</td>
+    <td>Messi</td>  
+  </tr>
+  <tr>
+   <td>Celtic</td>
+    <td>Scottish Premiership</td>
+    <td>Yes</td>
+    <td>Brown</td>
+    </tr>
+  <tr>
+    <td>Real Madrid</td>
+    <td>La Liga</td>
+    <td>No</td>
+    <td>Ronaldo</td>
+</table>
+
+</body>
 
 ul, ol {
   margin: 15px 0;
